@@ -1,0 +1,27 @@
+body {
+    max-width: 900px;
+}
+
+.board, .board1 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.board > div{
+    background-color: white;
+    padding: 50px;
+}
+
+.board > div:nth-child(odd){
+    background-color: black;
+}
+
+.board1 > div{
+    background-color: black;
+    padding: 50px;
+}
+
+.board1 > div:nth-child(odd){
+    background-color: white;
+}
+
